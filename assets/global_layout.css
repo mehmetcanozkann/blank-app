@@ -1,0 +1,56 @@
+/* hide main menu */
+#MainMenu {
+    visibility: hidden;
+  }
+  
+  /* hide footer */
+  footer {
+    visibility: hidden;
+  }
+  
+  /* remove whitespasce from the top of the page */
+  .block-container {
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+  }
+  
+  /* adjust vertical gap between containers */
+  div[data-testid="stVerticalBlock"] {
+    gap: 0.5rem;
+  }
+  
+  /* align metric container always to the center */
+  [data-testid="metric-container"] {
+    width: fit-content;
+    margin: auto;
+  }
+  
+  /* align metric container always to the center */
+  [data-testid="metric-container"] > div {
+    width: fit-content;
+    margin: auto;
+  }
+  
+  /* custom css for supergraphic */
+  .supergraphic {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0.5rem;
+    background-image: url(https://raw.githubusercontent.com/cenbek53/ma-images/main/bosch-supergraphic.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position-y: center;
+    background-position-x: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* font size for p tag
+  p {
+    font-size: 20px;
+    }
+  */

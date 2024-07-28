@@ -1,0 +1,69 @@
+/* custom css for navbar */
+section[data-testid='stSidebar'] {
+    background-color: #2E3033 !important;
+    min-width:unset !important;
+    width: 5rem !important;
+    flex-shrink: unset !important;
+    top: 0.5rem;
+    border-radius: 0px 10px 10px 0px;
+}
+
+section[class='all-tabs-options']{
+    background-color: #2E3033 !important;
+}
+
+/* custom css for navbar buttons */
+button[kind="header"] {
+    background-color: transparent;
+    color:rgb(180, 167, 141)
+}
+
+@media(hover){
+    /* header element to be removed */
+    header[data-testid="stHeader"] {
+        display:none;
+    }
+
+    /* the navigation menu specs and size */
+    section[data-testid='stSidebar'] > div {
+        height: 100%;
+        width: 5rem !important;
+        position: relative;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #2E3033 !important;
+        overflow-x: hidden;
+        transition: 0.5s ease;
+        padding-top: 9.5rem;
+        white-space: nowrap;
+        background-image: url(https://raw.githubusercontent.com/cenbek53/ma-images/main/bosch-symbol-black.png);
+        background-position-x: 1.5rem;
+        background-position-y: 1rem;
+        background-size: 2rem auto;
+        background-repeat: no-repeat;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+
+    /* css for hover  
+    section[data-testid='stSidebar'] > div:hover{
+    width: 13.125rem;
+    }
+    */
+    section[class='all-tabs-options']{
+        background-color: #2E3033 !important;
+    }
+
+    /* the button on the streamlit navigation menu - hidden */
+    button[kind="header"] {
+        display: none;
+    }
+}
+     
+@media(max-width: 272px){
+    /* default width of navbar */
+    section[data-testid='stSidebar'] > div {
+        width:18rem;
+    }
+}

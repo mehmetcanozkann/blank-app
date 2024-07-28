@@ -1,0 +1,30 @@
+/* custom css for bosch logo */
+.bosch-logo {
+    height: 2rem;
+    background-image: url(https://raw.githubusercontent.com/cenbek53/ma-images/main/bosch-symbol-red.png);
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: center;
+    background-size: auto 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* custom css for help section */
+  .help {
+    height: 2rem;
+    background-image: url(https://raw.githubusercontent.com/cenbek53/ma-images/main/chat.png);
+    background-repeat: no-repeat;
+    background-position-x: 95.5%;
+    background-position-y: center;
+    background-size: auto 100%;
+  }
+  
+  /* custom css for contact text */
+  .help > a {
+    margin-left: 96.5%;
+    font-family: monospace, Courier, "Roboto Mono", "Source Code Pro", "Ubuntu Mono";
+    text-decoration: none;
+    color: black;
+    align-self: center;
+  }
